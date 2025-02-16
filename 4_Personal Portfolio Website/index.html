@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kshitij Takale | Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="container">
+        <h1>Kshitij Takale</h1>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+      <div class="home-content">
+        <h2>Hello, I'm <span>Kshitij Takale</span></h2>
+        <p>
+          A passionate Full-Stack Developer specializing in Angular and Java
+          technologies.
+        </p>
+        <button onclick="scrollToSection('about')">Learn More</button>
+      </div>
+      <img src="profile.jpg" class="profile-photo" />
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I’m Kshitij Takale, a professional web developer specializing
+          in Angular and Java I have a B.E. in Computer
+          Engineering from Sinhgad Academy of Engineering, Pune, and have worked
+          on several projects that showcase my skills and dedication to web
+          development.
+        </p>
+        <h3>Skills:</h3>
+        <ul>
+          <li>Angular</li>
+          <li>Java</li>
+          <li>JavaScript</li>
+          <li>HTML & CSS</li>
+          <li>Node.js</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <h2>My Projects</h2>
+        <div class="project-card">
+          <h3>Project 1: Tic-Tac-Toe Game</h3>
+          <p>
+            A fun and interactive Tic-Tac-Toe game built using HTML, CSS, and
+            JavaScript.
+          </p>
+          <a href="#">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Project 2: Stopwatch Web App</h3>
+          <p>
+            A fully functional stopwatch web application with microsecond
+            tracking.
+          </p>
+          <a href="#">View Project</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+          <label for="name">Name</label>
+          <input type="text" id="name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" required></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>© 2025 Kshitij Takale. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
